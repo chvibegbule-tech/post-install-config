@@ -38,18 +38,12 @@ The objective of this project was to gain hands-on experience with help desk adm
 
 - Configure Agents (Help Desk Staff)
 
-
 - Configure Users (Customers)
 
 - Configure Service Level Agreements (SLAs)
 
 - Configure Help Topics
 
-- Create and Manage Tickets
-
-- Assign Ticket Priorities
-
-- Practice Ticket Escalation Workflows
 
 
 <h2>Skills Demonstrated</h2>
@@ -71,25 +65,210 @@ The objective of this project was to gain hands-on experience with help desk adm
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 1: Configure Roles
+
+
+Navigated to:
+
+   - Admin Panel → Agents → Roles
+
+Created a new role:
+-
+- Supreme Admin and assigned full permissions
+
+Skills Demonstrated:
+-
+- Access Control
+- Role-Based Access Control (RBAC)
+- User Administration
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="3360" height="2100" alt="Screenshot 2026-06-21 at 6 08 51 PM" src="https://github.com/user-attachments/assets/bed436f4-f6a3-4678-bdc7-f6a88f06f5c5" />
+
+</p>
+<p>
+Roles determine the permissions assigned to agents.
 </p>
 <br />
 
+---
+
+Step 2: Configure Departments
+-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Actions Performed:
+-
+Created departments such as:
+
+- Help Desk
+- SysAdmins
+- Networking
+- Security
+
+Navigation:
+
+Admin Panel → Agents → Departments
+
+Skills Demonstrated:
+-
+- Organizational Structure Design
+- Ticket Routing
+- Department Management
+
+<img width="3360" height="1961" alt="Screenshot 2026-06-21 at 6 34 50 PM" src="https://github.com/user-attachments/assets/88ac3f7d-df90-43fd-8a30-75365eee3a28" />
+
+
+<p>
+
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Departments organize support functions within the organization.
 </p>
 <br />
 
+---
+
+Step 3: Configure Teams
+-
+Actions Performed:
+-
+- Created: Online Banking Team
+- Created: Infrastructure Team
+- Created: Security Team
+
+Navigation:
+-
+Admin Panel → Agents → Teams
+
+Skills Demonstrated:
+-
+- Cross-functional Collaboration
+- Ticket Escalation Management
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="3328" height="2004" alt="Screenshot 2026-06-21 at 7 25 15 PM" src="https://github.com/user-attachments/assets/98a60c7d-dc00-44cb-9ac7-0525e69c7d6d" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Teams allow agents from different departments to collaborate.
 </p>
 <br />
+
+---
+
+Step 4: Configure Agents
+-
+
+Actions Performed:
+
+Created agents:
+-
+- Jane Doe
+- John Doe
+
+Assigned:
+
+- Roles
+- Departments
+- Teams
+
+Navigation:
+
+Admin Panel → Agents → Add New
+
+Skills Demonstrated:
+- User Administration
+- Permission Management
+- Help Desk Operations
+
+<img width="3306" height="1930" alt="Screenshot 2026-06-21 at 7 44 27 PM" src="https://github.com/user-attachments/assets/e2c8cc53-83f1-4d60-9619-b76f3225bb64" />
+</p>
+<p>
+Agents are support personnel who work on tickets.
+
+---
+
+Step 5: Configure Users
+-
+
+Actions Performed
+
+Created users such as:
+
+- Karen
+- Ken
+
+Navigation:
+
+Agent Panel → Users → Add User
+
+Skills Demonstrated:
+- Customer Management
+- End User Administration
+
+<img width="3306" height="1930" alt="Screenshot 2026-06-21 at 8 00 30 PM" src="https://github.com/user-attachments/assets/76d4fe6c-387c-4334-a40f-e98d7ede77db" />
+</p>
+<p>
+Users represent customers who submit tickets.
+
+---
+
+Step 6: Configure SLA Plans
+-
+
+Actions Performed:
+
+Created:
+-
+- Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+- Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+- Sev-C (Grace Period: 8 hours, Business Hours)
+
+Navigation:
+
+Admin Panel → Manage → SLA
+
+Skills Demonstrated:
+
+- Service Management
+- Incident Response
+- Priority Management
+
+<img width="3306" height="1930" alt="Screenshot 2026-06-21 at 8 10 09 PM" src="https://github.com/user-attachments/assets/39746678-a007-4615-af06-a5aed3cde845" />
+</p>
+<p>
+SLAs determine ticket response and resolution expectations.
+
+---
+
+Step 7: Configure Help Topics
+-
+
+Actions Performed
+
+Created:
+
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+
+
+Navigation:
+
+Admin Panel → Manage → Help Topics
+
+Skills Demonstrated:
+
+- Ticket Categorization
+- ITSM Concepts
+- Workflow Design
+<img width="3306" height="1930" alt="Screenshot 2026-06-21 at 8 33 16 PM" src="https://github.com/user-attachments/assets/094baf0b-42fb-4829-b665-cf8a6d20a883" />
+</p>
+<p>
+Help Topics categorize tickets.
+
